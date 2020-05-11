@@ -10,6 +10,11 @@ h1 {
   color: #eeeeee;
 }
 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #222831;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   color: #eeeeee;
@@ -70,7 +75,7 @@ nav {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
   body {
     overflow-x: hidden;
   }
@@ -144,6 +149,7 @@ nav {
 
 .project-image {
   max-width: 100%;
+  border: 5px solid #222831;
 }
 
 .projects-grid {
@@ -162,6 +168,14 @@ nav {
   height: 100vh;
   text-align: center;
   background-color: #00adb5;
+}
+
+.project-title {
+  color: #222831;
+}
+
+.project-project-tile {
+  text-decoration: none;
 }
 
 /* Contact Section */
@@ -185,4 +199,18 @@ footer {
 .copyright {
   text-align: center;
   padding-top: 50px;
+}
+
+/*  */
+
+@media only screen and (max-width: 800px) {
+  .projects-section {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-section {
+    height: 200vh;
+  }
 }
