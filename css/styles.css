@@ -1,9 +1,21 @@
-
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  color: #eeeeee;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #eeeeee;
+}
+
+/* Responsive Nav Bar Start*/
 
 nav {
   display: flex;
@@ -11,11 +23,17 @@ nav {
   align-items: center;
   min-height: 8vh;
   font-family: 'Poppins', sans-serif;
-  background-color: #5D4954;
+  background-color: #222831;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .logo {
-  color: rgb(226, 226, 226);
+  color: #eeeeee;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -32,7 +50,7 @@ nav {
 }
 
 .nav-list a {
-  color: rgb(226, 226, 226);
+  color: #eeeeee;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -47,7 +65,7 @@ nav {
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: rgb(226, 226, 226);
+  background-color: #eeeeee;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -62,7 +80,7 @@ nav {
       right: 0px;
       height: 92vh;
       top: 8vh;
-      background-color: #5D4954;
+      background-color: #222831;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -102,4 +120,69 @@ nav {
 }
 .toggle.line3{
   transform: rotate(45deg) translate(-5px,-6px));
+}
+
+/* Responsive Navbar End */
+
+/* Welcome Section */
+
+.welcome-section {
+  padding-top: 320px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  text-align: center;
+  background-color: #393e46;
+}
+
+/* Projects Section */
+
+.projects {
+  max-width: 245px;
+  margin: 10px;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+
+.projects-section {
+  padding-top: 150px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  text-align: center;
+  background-color: #00adb5;
+}
+
+/* Contact Section */
+
+.contact-section {
+  padding-top: 150px;
+  margin-top: 0px;
+  display: block;
+  height: 50vh;
+  text-align: center;
+  background-color: #222831;
+}
+
+/* footer */
+
+footer {
+  background-color: #393e46;
+  height: 15vh;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 50px;
 }
