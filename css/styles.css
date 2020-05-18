@@ -189,6 +189,19 @@ nav {
   background-color: #222831;
 }
 
+.contact-section-header {
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 30px;
+}
+
+#profile-link {
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+
+}
+
 /* footer */
 
 footer {
