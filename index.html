@@ -1,142 +1,213 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chris Kirby Portfolio</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Chris Kirby Portfolio</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <nav id="navbar" class="nav">
+      <div class="logo">
+        <h4>Chris Kirby</h4>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-<body>
+    <!-- Welcome Section -->
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hi, I'm Chris</h1>
+      <p>A Programmer</p>
+    </section>
 
-  <nav id="navbar" class="nav">
-    <div class="logo">
-      <h4>Chris Kirby</h4>
-    </div>
-    <ul class="nav-list">
-      <li>
-        <a href="#welcome-section">About</a>
-      </li>
-      <li>
-        <a href="#projects">Work</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
+    <!-- Projects -->
 
-  <!-- Welcome Section -->
-  <section id="welcome-section" class="welcome-section">
-    <h1>Hi, I'm Chris</h1>
-    <p>A Programmer</p>
-  </section>
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
 
-  <!-- Projects -->
+      <div class="projects-grid">
+        <a
+          href="https://cakes-by-emily-eve.herokuapp.com/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/cakesbyemilyeve.png"
+              alt="tribute_page"
+            />
+            <h3>Cakes By Emily Eve</h3>
+            <p>A full stack web application created with React, NodeJS and a custom built Webpack to submit form data to the client's email with nodemailer.</p>
+            <a href="https://github.com/ChrisKirbyDev/Cakes"><p>Code</p></a>
+          </div>
+        </a>
+        <a
+          href="https://accessmap.herokuapp.com/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/accessmap.png"
+              alt="tribute_page"
+            />
+            <h3>Access Map</h3>
+            <p>An open-source React and RestAPI project for GovHackNZ, An app for showing wheel-chair access facilities in central Auckland. part of a three person developer Team following an Agile Development process.</p>
+            <a href="https://github.com/malyz01/govthack"><p>Code</p></a>
+          </div>
+        </a>
+        <a
+          href="https://hungry-curie-bbd544.netlify.app/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/travelsite.png"
+              alt="tribute_page"
+            />
+            <h3>Travel Site</h3>
+            <p>A full stack web application using JavaScript, NodeJS, Webpack, BEM & PostCSS. Applying mobile first practices and deploying on Netlify to learn the basics of AWS Lambda functions.</p>
+            <a href="https://github.com/ChrisKirbyDev/travel-site"
+              ><p>Code</p></a
+            >
+          </div>
+        </a>
+        <a
+          href="https://chriskirbydev.github.io/PersonalPortfolio/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/portfolio.png"
+              alt="tribute_page"
+            />
+            <h3>My Current Portfolio</h3>
+            <p>Front end application utilising JavaScript & CSS.</p>
+            <a href="https://github.com/ChrisKirbyDev/PersonalPortfolio"
+              ><p>Code</p></a
+            >
+          </div>
+        </a>
+        <a
+          href="https://chriskirbydev.github.io/DogTinder/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/tindog.png"
+              alt="tribute_page"
+            />
+            <h3>DogTinder</h3>
+            <p>Front end application using HTML & Bootstrap library</p>
+            <a href="https://github.com/ChrisKirbyDev/DogTinder"><p>Code</p></a>
+          </div>
+        </a>
+        <a
+          href="https://chriskirbydev.github.io/Profile/"
+          target="_blank"
+          class="project-project-tile"
+        >
+          <div class="projects">
+            <img
+              class="project-image"
+              src="images/profile.png"
+              alt="tribute_page"
+            />
+            <h3>My First Portfolio</h3>
+            <p>My First Website using HTML & CSS.</p>
+            <a href="https://github.com/ChrisKirbyDev/DogTinder"
+              ><p>Code</p></i
+            ></a>
+          </div>
+        </a>
+      </div>
+    </section>
 
-  <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">These are some of my projects</h2>
+    <!-- End Projects Section -->
 
-    <div class="projects-grid">
-      <a href="https://chriskirbydev.github.io/Tribute-Page/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/tributepage.png" alt="tribute_page" />
-        </div>
-        <p class="project-title">
-          Tribute Page
-        </p>
+    <!--  Start Contact Section -->
 
-      </a>
-      <a href="https://chriskirbydev.github.io/SurveyForm/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/surveyform.png" alt="survey" />
-        </div>
-        <p class="project-title">
-          Survey Form
-        </p>
-      </a>
-      <a href="https://chriskirbydev.github.io/DogTinder/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/tindog.png" alt="tindog" />
-        </div>
-        <p class="project-title">
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <p>Let's talk</p>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/ChrisKirbyDev"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github" style="color: white"></i
+        ></a>
+        <a
+          id="profile-link"
+          href="https://www.linkedin.com/in/chris-kirby-07b6191a4/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-linkedin" style="color: white"></i
+        ></a>
+        <a
+          id="profile-link"
+          href="mailto:chriskirbydev@gmail.com"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fas fa-envelope" style="color: white"></i
+        ></a>
+      </div>
+    </section>
 
-          TinDog
+    <!-- End Contact Section -->
 
-        </p>
-      </a>
-      <a href="https://cakes-by-emily-eve.herokuapp.com/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/cakesbyemilyeve.png" alt="cakes_by_emily_eve" />
-        </div>
-        <p class="project-title">
+    <!-- Start Footer Section -->
 
-          Cakes by emily eve
+    <footer>
+      <p class="copyright">© Copyright 2020 Christopher Michael Kirby</p>
+    </footer>
 
-        </p>
-      </a>
-      <a href="https://hungry-curie-bbd544.netlify.app/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/travelsite.png" alt="technical_documentation_page" />
-        </div>
-        <p class="project-title">
-
-          Travel Site
-
-        </p>
-      </a>
-      <a href="https://chriskirbydev.github.io/Profile/" target="_blank" class="project-project-tile">
-        <div class="projects">
-          <img class="project-image" src="images/profile.png" alt="personal_profile" />
-        </div>
-        <p class="project-title">
-
-          Personal Profile
-
-        </p>
-      </a>
-    </div>
-  </section>
-
-  <!-- End Projects Section -->
-
-  <!--  Start Contact Section -->
-
-  <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <p>Let's talk</p>
-    </div>
-    <div class="contact-links">
-      <a id="profile-link" href="https://github.com/ChrisKirbyDev" target="_blank" class="btn contact-details"><i class="fab fa-github" style="color:white;"></i></a>
-      <a id="profile-link" href="https://www.linkedin.com/in/chris-kirby-07b6191a4/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin" style="color:white;"></i></a>
-      <a id="profile-link" href="mailto:chriskirbydev@gmail.com" target="_blank" class="btn contact-details"><i class="fas fa-envelope" style="color:white;"></i></a>
-    </div>
-  </section>
-
-  <!-- End Contact Section -->
-
-  <!-- Start Footer Section -->
-
-  <footer>
-    <p class="copyright">© Copyright 2020 Christopher Michael Kirby</p>
-  </footer>
-
-  <!-- END FOOTER SECTION -->
-  <script src="app.js"></script>
-</body>
-
+    <!-- END FOOTER SECTION -->
+    <script src="app.js"></script>
+  </body>
 </html>
