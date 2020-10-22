@@ -232,8 +232,8 @@ nav {
 
 /*  */
 
-@media only screen and (max-width: 1028px) {
+@media screen and(min-width: 600px) {
   .projects-section {
-    height: 2700px;
+    height: 4000px;
   }
 }
